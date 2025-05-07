@@ -1,0 +1,100 @@
+/* General feedback message styles */
+.feedback {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+.feedback.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.feedback.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Table styling */
+.department-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.department-table th, .department-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.department-table th {
+    background-color: #f2f2f2;
+}
+
+.update-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Back to Dashboard Link Styling */
+.back-to-dashboard {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-to-dashboard:hover {
+    background-color: #2980b9;
+}
+/* Header Section Styling */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.back-to-dashboard {
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-to-dashboard:hover {
+    background-color: #2980b9;
+}
